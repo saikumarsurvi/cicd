@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>cicd</artifactId>
+	<artifactId>demo-cicd</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
@@ -35,12 +35,12 @@
 <muleVersion>${app.runtime}</muleVersion>
 <username>${username}</username>
 <password>${password}</password>
-<applicationName>cicd</applicationName>
+<applicationName>demo-cicd</applicationName>
 <environment>Sandbox</environment>
 <workerType>${workerType}</workerType>
 <workers>1</workers>
 <objectStoreV2>true</objectStoreV2>
-<region> ${region} </region>
+<region>${region}</region>
 </cloudHubDeployment>
 </configuration>
 </plugin>
