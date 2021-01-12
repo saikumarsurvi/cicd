@@ -6,7 +6,7 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="df0d5f0f-bb74-42e5-849d-e46b49abb86e" >
-		<http:listener-connection host="0.0.0.0" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="8082" />
 	</http:listener-config>
 	<flow name="sample-cicdFlow" doc:id="77899e0f-231c-4b00-8c54-404f454ee176" >
 		<http:listener doc:name="Listener" doc:id="7adfd007-a0e1-4260-8df2-5aff25ebffba" config-ref="HTTP_Listener_config" path="/cicd"/>
