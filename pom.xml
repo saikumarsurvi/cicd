@@ -35,7 +35,7 @@
 <muleVersion>${app.runtime}</muleVersion>
 <username>${username}</username>
 <password>${password}</password>
-<applicationName>${project.artifactId}</applicationName>
+<applicationName>demo-cicd</applicationName>
 <environment>Sandbox</environment>
 <workerType>${workerType}</workerType>
 <workers>1</workers>
