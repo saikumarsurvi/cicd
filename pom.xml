@@ -25,25 +25,25 @@
 				<version>3.0.0</version>
 			</plugin>
 			<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
-				<configuration>
-					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com/</uri>
-						<muleVersion>${app.runtime}</muleVersion>
-						<username>survisai</username>
-						<password>Survi@444</password>
-						<applicationName>${project.artifactId}</applicationName>
-						<environment>Sandbox</environment>
-						<workerType>Micro</workerType>
-						<workers>1</workers>
-						<objectStoreV2>true</objectStoreV2>
-						<region>us-west-2</region>
-					</cloudHubDeployment>
-			</configuration>
-			</plugin>
+<groupId>org.mule.tools.maven</groupId>
+<artifactId>mule-maven-plugin</artifactId>
+<version>${mule.maven.plugin.version}</version>
+<extensions>true</extensions>
+<configuration>
+<cloudHubDeployment>
+<uri>https://anypoint.mulesoft.com/</uri>
+<muleVersion>${app.runtime}</muleVersion>
+<username>${username}</username>
+<password>${password}</password>
+<applicationName>${project.artifactId}</applicationName>
+<environment>Sandbox</environment>
+<workerType>${workerType}</workerType>
+<workers>1</workers>
+<objectStoreV2>true</objectStoreV2>
+<region> ${region} </region>
+</cloudHubDeployment>
+</configuration>
+</plugin>
 		</plugins>
 	</build>
 
