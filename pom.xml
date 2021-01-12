@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>demo-cicd</artifactId>
+	<artifactId>cicd</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
@@ -35,7 +35,7 @@
 <muleVersion>${app.runtime}</muleVersion>
 <username>${username}</username>
 <password>${password}</password>
-<applicationName>demo-cicd</applicationName>
+<applicationName>cicd</applicationName>
 <environment>Sandbox</environment>
 <workerType>${workerType}</workerType>
 <workers>1</workers>
