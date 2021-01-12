@@ -6,12 +6,7 @@ steps {
 bat 'mvn clean install'
 }
 }
-stage('Test') {
-steps {
-echo 'Application in Testing Phase…'
-bat 'mvn test'
-}
-}
+
 stage('Deploy CloudHub') {
 environment {
 ANYPOINT_CREDENTIALS = credentials('anypoint.credentials')
