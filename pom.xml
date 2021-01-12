@@ -33,14 +33,14 @@
 <cloudHubDeployment>
 <uri>https://anypoint.mulesoft.com/</uri>
 <muleVersion>${app.runtime}</muleVersion>
-<username>survisai</username>
-<password>Survi@444</password>
+<username>${username}</username>
+<password>${password}</password>
 <applicationName>${project.artifactId}</applicationName>
 <environment>Sandbox</environment>
-<workerType>Micro</workerType>
+<workerType>${workerType}</workerType>
 <workers>1</workers>
 <objectStoreV2>true</objectStoreV2>
-<region>us-west-2</region>
+<region> ${region} </region>
 </cloudHubDeployment>
 </configuration>
 </plugin>
